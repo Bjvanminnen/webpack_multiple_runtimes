@@ -19,9 +19,11 @@ My (limited) understanding of what's happening is that B1 sees that we already h
 
 #Steps to repro
 Create two chunked bundles, each of which ends up with their own run time in their common file.
+
 `npm run build`
 
 Serve up content
+
 `python -m SimpleHTTPServer`
 
 Navigate to localhost:8000 and open up debugger.
