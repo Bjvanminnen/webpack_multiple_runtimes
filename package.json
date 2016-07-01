@@ -1,0 +1,17 @@
+{
+  "name": "webpack_multiple_runtimes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build_one": "cd one && webpack",
+    "build_two": "cd two && webpack",
+    "build": "npm run build_one && npm run build_two",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^1.13.1"
+  }
+}
